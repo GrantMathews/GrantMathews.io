@@ -128,10 +128,30 @@
 		    </div>
             </div>
             <div class="col-md-6">
-                <h2>What's Up Jeff and Freddy!</h2>
-                <p>I am using my old personal project site to practice editing HTML and CSS codes to see if I can help with the website.</p>
-		<p>Freddy, let me know when you hear back from the web developer we were using about the EMHLA.com files and I will take a look.</p>
-            </div>
+               <div id="front" onmousemove="mousemove(event);" onmouseout="mouseexit(event);">
+		<img id="loading" src="Images/loading.gif" />
+		<div id="flippers">
+			<div id="numberWrapper">
+				<div id="number">~</div>
+			</div>
+			<div class="flip" id="fliprollie"></div>
+			<div class="flip" id="flip" onclick="showBack(event);" onmouseover="enterflip(event);" onmouseout="exitflip(event);"></div>
+		</div>
+	</div>
+	<div id="back">
+		<div id="fieldWrapper">
+			<div id="left">
+				<span>Username:</span>
+				<span>Password:</span>
+			</div>
+			<div id="right">
+				<input id="userName" value="" size="18" onKeyPress="Prefs.submitOnEnter(event);"></input>
+				<input id="passWord" value="" type="password" size="18" onKeyPress="Prefs.submitOnEnter(event);"></input>
+			</div>
+			<div id="copy">Version 2.3.2 <span id="project" onClick="goToProjectPage();">More Info</span>.<br />Created by Brett Buddin.</div>
+		</div>
+		<div id="done" onclick="showFront();"></div>
+	</div></div>
         </div>
         <!-- /.row -->
  <!-- Footer -->
