@@ -1,5 +1,5 @@
 AuthName "Welcome, Please enter your user name and password"
 AuthType Basic
-AuthUserFile /customers/7/4/f/grantmathews.github.io/index.hmtl/httpd.www/.htpasswd
+AuthUserFile /customers/7/4/f/https://grantmathews.github.io/index.hmtl/httpd.www/.htpasswd
 AuthGroupFile /dev/null 
 require valid-user
