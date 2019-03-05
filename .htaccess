@@ -1,5 +1,5 @@
-AuthName "This site is protected with a password"
+AuthName "Welcome, Please enter your user name and password"
 AuthType Basic
-AuthUserFile http://grantmathews.github.io/index.hmtl/.htpasswd
-AuthGroupFile  
+AuthUserFile /customers/7/4/f/grantmathews.github.io/httpd.www/grantmathews.github.io/portfolio-2-col.html/.htpasswd
+AuthGroupFile /dev/null 
 require valid-user
