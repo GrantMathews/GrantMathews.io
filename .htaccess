@@ -1,5 +1,5 @@
 AuthName "This site is protected with a password"
 AuthType Basic
-AuthUserFile /customers/c/8/e/grantmathews.github.io/httpd.www/.htpasswd
+AuthUserFile grantmathews.github.io/.htpasswd
 AuthGroupFile /dev/null 
 require valid-user
