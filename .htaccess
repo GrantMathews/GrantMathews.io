@@ -1,4 +1,4 @@
 AuthName "Welcome, Please enter your user name and password"
 AuthType Basic
-AuthUserFile grantmathews.github.io/.htpasswd
+AuthUserFile /web/grantmathews.github.io/.htpasswd
 require valid-user
